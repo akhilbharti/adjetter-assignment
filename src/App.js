@@ -4,6 +4,7 @@ import * as contactAction from "./action/contactAction";
 import Axios from "axios";
 import uuid from "uuid/v4";
 import "./App.css";
+import Header from "./header";
 
 class App extends Component {
   constructor(props) {
@@ -140,6 +141,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <div className="wrap">
           <form onSubmit={this.handleSubmit}>
             <div className="row">
