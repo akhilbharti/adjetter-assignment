@@ -18,3 +18,6 @@ Flow of the Project-
 2. The user stored with unique id is displayed in a listview with an option to either remove the user or view the detailed github repositories of that user.
 3. if the option to view the detailed github repositories is choosed an api request with the given user name is fired and the response is saved and repository title,description,language,created date is saved in an object.
 4. Repository Object is then traversed and required details are rendered on the browser.
+
+
+![](ass.gif)
